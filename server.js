@@ -45,13 +45,13 @@ if(process.env.NODE_ENV != "production") {
 
 
  // Statically serve the dist folder
- app.use(express.static(path.join(__dirname + '/dist')));
+ app.use(express.static(path.join(__dirname, 'dist')));
 
 
  // This route needs to be last
  // This will serve the site and pass the path to the Angular app
  app.get('*', function(req, res) {
- 	res.sendFile(path.join(__dirname + '/dist/index.html'));
+ 	res.sendFile(path.join(__dirname , 'dist', 'index.html'));
  });
 
 

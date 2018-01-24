@@ -1,0 +1,45 @@
+{
+  "configVersion": 1,
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "/favicon.ico",
+        "/index.html",
+        "/inline.48fd73b6251b93d6acc1.bundle.js",
+        "/main.46c3f8bf3be4a48a8100.bundle.js",
+        "/polyfills.f039bbc7aaddeebcb9aa.bundle.js",
+        "/styles.9abe5aa53c33e0e041e1.bundle.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "/assets/images/footer/stay_tuned_bitmoji.jpg",
+        "/assets/images/landing/about.jpg",
+        "/assets/images/landing/welcome_bkgd.jpg",
+        "/assets/scss/variables.scss"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/inline.48fd73b6251b93d6acc1.bundle.js": "f0f52d9a3e91c90c535a8f22f7def903b7ea05f8",
+    "/assets/images/footer/stay_tuned_bitmoji.jpg": "4f089d1509b14d36582d3e008e081c95d15ffdf1",
+    "/main.46c3f8bf3be4a48a8100.bundle.js": "0e2a9f4b5760adae0392c0e4ac5666e4ed77abe9",
+    "/assets/images/landing/about.jpg": "8ad7d3f845f8494f7d2df8f4cd4d0ac7e3ad1e15",
+    "/polyfills.f039bbc7aaddeebcb9aa.bundle.js": "ec292c1398cd4840a95d336fd9fff0174168c066",
+    "/assets/images/landing/welcome_bkgd.jpg": "02b6767c1013c1eb49242a2153113109b754192b",
+    "/styles.9abe5aa53c33e0e041e1.bundle.css": "d9bf98401d9aac768a7ed7c48eeee64d1e854f1f",
+    "/assets/scss/variables.scss": "dbf255b3e137c886d9d063d1ae98ac3451749644",
+    "/favicon.ico": "362cda880bd576b1f27794d1215dae2cea95dcf2",
+    "/index.html": "140eed6a95d83725f62e4423083c5f7bfbf743b8"
+  }
+}

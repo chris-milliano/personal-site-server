@@ -27,6 +27,15 @@
         "/assets/scss/variables.scss"
       ],
       "patterns": []
+    },
+    {
+      "name": "fontawesome",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [],
+      "patterns": [
+        "\\/fontawesome-webfont\\.[^\\/]+"
+      ]
     }
   ],
   "dataGroups": [],
